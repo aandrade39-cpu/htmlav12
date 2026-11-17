@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Posiciones CSS - Mi sitio web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="fondo.jpg" alt="Encabezado del sitio">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Conoceme</a>
+                <ul>
+                    <li><a href="informacion.html">Informacion personal</a></li>
+                    <li><a href="pasatiempos.html">Pasatiempos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Segunda parcial</a>
+                <ul>
+                    <li><a href="practica1.html">Práctica uno</a></li>
+                    <li><a href="posiciones.html">Posiciones</a></li>
+                    <li><a href="mundodigital.html">Mi mundo digital</a></li>
+                    <li><a href="comunidad.html">Comunidad digital</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Tercera parcial</a>
+                <ul>
+                    <li><a href="#">Práctica uno</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <aside class="principal">
+            <h2>PRÁCTICA: PROPIEDAD POSITION EN CSS 📐</h2>
+            <p>Ejercicios guiados basados en el tutorial de <strong>freeCodeCamp</strong> sobre el uso de la propiedad <code>position</code> en CSS.</p>
+
+            <article class="caja-posicion">
+                <h3>1. Position Static (Por defecto)</h3>
+                <div class="contenedor-demo">
+                    <div class="caja demo-static">Estatus: Static</div>
+                </div>
+            </article>
+
+            <article class="caja-posicion">
+                <h3>2. Position Relative</h3>
+                <div class="contenedor-demo">
+                    <div class="caja demo-relative">Estatus: Relative (top: 15px, left: 30px)</div>
+                </div>
+            </article>
+
+            <article class="caja-posicion">
+                <h3>3. Position Absolute</h3>
+                <div class="contenedor-demo relativo-padre">
+                    <span>Contenedor Padre (position: relative)</span>
+                    <div class="caja demo-absolute">Absolute (top: 10px, right: 10px)</div>
+                </div>
+            </article>
+
+            <article class="caja-posicion">
+                <h3>4. Position Sticky</h3>
+                <div class="contenedor-demo scroll-demo">
+                    <div class="caja demo-sticky">Sticky Header (top: 0)</div>
+                    <p style="padding: 10px;">Desplaza hacia abajo para ver el efecto sticky.</p>
+                    <p style="padding: 10px;">Relleno...</p>
+                    <p style="padding: 10px;">Relleno...</p>
+                </div>
+            </article>
+
+            <article class="caja-posicion">
+                <h3>5. Position Fixed</h3>
+                <div class="caja demo-fixed">Fixed (Abajo Derecha)</div>
+            </article>
+        </aside>
+
+        <aside class="secundario">
+            <h2>Tutorial de Referencia</h2>
+            <p><a href="https://www.freecodecamp.org/espanol/news/como-usar-la-propiedad-posicion-en-css-para-alinear-elementos/" target="_blank">Leer artículo en freeCodeCamp</a></p>
+        </aside>
+    </section>
+
+    <footer>
+        <img src="logo_ucol.png" alt="Logo Universidad de Colima">
+        <div>
+            <p><strong>Universidad de Colima</strong></p>
+            <p>Bachillerato 8</p>
+            <p>Programacion en Internet I</p>
+        </div>
+    </footer>
+</body>
+</html>
